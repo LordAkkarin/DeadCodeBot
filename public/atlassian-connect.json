@@ -1,0 +1,36 @@
+{
+	"name":				"0xDEADC0DE Bot",
+	"description":			"Allows communicating JIRA with the DEADC0DE IRC bot.",
+	"key":				"com.evilco.irc.deadcode",
+	"baseUrl":			"http://localhost:7001/jira",
+	"vendor": {
+		"name":				"Evil-Co",
+		"url":				"http://www.evil-co.com"
+	},
+
+	"authentication":		{
+		"type":				"jwt"
+	},
+
+	"lifecycle":			{
+		"installed":			"/installation"
+	},
+
+	"modules":			{
+		"webhooks":			[
+			{
+				"event":		"jira:issue_created",
+				"url":			"/"
+			},
+			{
+				"event":		"jira:issue_deleted",
+				"url":			"/"
+			},
+			{
+				"event":		"jira:issue_updated",
+				"url":			"/"
+			}
+		]
+	},
+	"scopes":			["read"]
+}
