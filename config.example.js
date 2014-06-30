@@ -19,25 +19,25 @@ var config = {
 	 * Defines the bot nickname.
 	 * @var string
 	 */
-	nickname:			'DeadCode',
+	nickname:			"DeadCode",
 
 	/**
 	 * Defines the bot username (ident).
 	 * @var string
 	 */
-	username:			'DEADC0DE',
+	username:			"DEADC0DE",
 
 	/**
 	 * Defines the bot realname (gecos).
 	 * @var string
 	 */
-	realname:			'0xDEADC0DE',
+	realname:			"0xDEADC0DE",
 
 	/**
 	 * Defines the channel to send messages to.
 	 * @var string
 	 */
-	channel:			'#Akkarin',
+	channel:			"#Akkarin",
 
 	/**
 	 * IRC Server specific settings.
@@ -48,7 +48,7 @@ var config = {
 		 * Defines the server address.
 		 * @var string
 		 */
-		address:			'irc.example.org',
+		address:			"irc.example.org",
 
 		/**
 		 * Defines the server port.
@@ -66,7 +66,7 @@ var config = {
 		 * Specifies the modes to set on the bot on connect (null if not used).
 		 * @var string
 		 */
-		userModes:			'+B',
+		userModes:			"+B",
 
 		/**
 		 * Defines whether expired certificates should be accepted.
@@ -96,13 +96,13 @@ var config = {
 		 * Defines the nickname to use for authentication (null if not used).
 		 * @var string
 		 */
-		username:			'0xDeadCode',
+		username:			"0xDeadCode",
 
 		/**
 		 * Defines the password to use for authentication.
 		 * @var string
 		 */
-		password:			'1234',
+		password:			"1234",
 
 		/**
 		 * Defines the command to use for authentication (null if PRIVMSG should be used).
@@ -120,7 +120,7 @@ var config = {
 		 * Defines the Webhook-Secret.
 		 * @var string
 		 */
-		secret:				'1234'
+		secret:				"1234"
 	},
 
 	/**
