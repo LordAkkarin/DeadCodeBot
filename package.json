@@ -1,0 +1,12 @@
+{
+	"name":			"logbot",
+	"description":		"",
+	"version":		"1.0.0",
+	"private":		true,
+	"dependencies":		{
+		"body-parser":			"1.4.x",
+		"express":			"3.x",
+		"irc":				"0.3.x",
+		"jws":				"0.2.x"
+	}
+}
