@@ -1,0 +1,18 @@
+#----------#
+# IntelliJ #
+#----------#
+.idea/
+*.iml
+*.ipr
+*.iws
+
+#-----#
+# NPM #
+#-----#
+node_modules/
+
+#----------------#
+# Configurations #
+#----------------#
+config.js
+connect-secret
